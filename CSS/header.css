@@ -1,0 +1,156 @@
+.header
+{
+    height: 65px;
+
+    display: flex;
+
+    flex-direction: row;
+    background-color: white;
+
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    border-bottom-width: 1px ;
+    border-bottom-color: rgb(235, 235, 235);
+    border-bottom-style: solid;
+
+
+    z-index: 100;
+
+    
+    
+
+}
+
+.left-section
+{
+    display: flex;
+    align-items: center;
+}
+
+.middle-section
+{
+    flex: 1;
+    margin-left: 70px ;
+    margin-right: 35px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.right-section
+{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.menu
+{
+   height: 24px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.logo
+{
+    height: 25px;
+}
+
+.voice-icon-img
+{
+    height: 30px;
+}
+
+.voice-icon-button
+{
+   padding: 6px;
+   border-radius:20px;
+   border: none;
+   background-color: rgb(238, 238, 238);
+
+}
+
+.search-icon-img
+{
+    height:25px;
+    margin-left: 20px;
+}
+
+.search-icon-button
+{
+    padding: 9px;
+    padding-right: 30px;
+    background-color: rgb(238, 238, 238);
+    border-width: 1px;
+    border-radius:  0px 20px 20px 0px;
+    border-color: rgb(175,175,175);
+    margin-left: -30px;
+    margin-right: 20px;
+  
+}
+
+
+.search-bar
+{
+    height: 44px;
+    flex: 1;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(175, 175, 175);
+    border-radius: 20px;
+    box-shadow: inset 1px 2px 4px rgba(0,0,0,0.25);
+    width: 0;
+}
+
+.search-bar::placeholder
+{
+    font-family: Roboto , Arial;
+    font-size: 16px;
+    
+
+}
+
+.upload,
+.user-pic,
+.apps,
+.notifications
+{
+    height: 30px;
+}
+
+.user-pic
+{
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.notification-div
+{
+    position: relative;
+}
+
+.counter
+{
+    color: white;
+    background-color: rgb(196, 3, 3);
+    position: absolute;
+    top:-4px;
+    right: -4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
